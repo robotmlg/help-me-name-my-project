@@ -10,4 +10,6 @@ COPY name_project /app/name_project
 COPY manage.py /app/
 COPY run.sh /app/
 
+EXPOSE 8000
+
 CMD ["sh", "run.sh"]
