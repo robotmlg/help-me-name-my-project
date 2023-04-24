@@ -32,8 +32,10 @@ h1 {
 .reload {
 
 	font-family: ‘reg’;
-	font-size: 70px;
-	text-align: center;
+	font-size: 100px;
+	position: relative;
+	left: 50%;
+	right: 50%;
 }
 	
 }
