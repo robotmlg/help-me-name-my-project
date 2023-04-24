@@ -66,4 +66,11 @@ h1 {
   transform: translateY(4px);
 }
 
+input[type=button] {
+font-family: 'pixels';
+font-size: 36px;
+color: black;
+text-align: center;
+}
+
 	
