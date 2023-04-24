@@ -105,5 +105,3 @@ NOUNS = [
 
 def get_name():
     return f"{random.choice(ADJECTIVES)} {random.choice(NOUNS)}".title()
-
-print(get_name())
