@@ -39,31 +39,31 @@ h1 {
 
 }
 
+
+
 .button { 
 	
-font-family: ‘pixels’;
-font-size: 36px;
-color: black;
-text-align: center;
-} 
 
-} 
-
-	padding: 15px 32px;
-	background-color: #e3af00; 
-	border: 1px, solid, black;
-	border-radius: 30px;
-	position: relative; 
-	display: inline-block;
-	margin: 4px 2px;
-	left: 50%; 
-	right: 50%;
-	transition-duration: 0.4s;
-	filter: drop-shadow(4px 8px 5px #919191);
-} 
-
-.button:hover {
-  background-color: black;
-  color: #e3af00;
-  filter: drop-shadow(2px 8px 3px #6e6e6e);
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ffd64b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #ffca18;
 }
+
+.button:hover {background-color: #ffdc65}
+
+.button:active {
+  background-color: #ffdc65;
+  box-shadow: 0 5px #ffd033;
+  transform: translateY(4px);
+}
+
+	
