@@ -9,9 +9,19 @@
 <link rel="stylesheet" href="{% static 'start.css' %}"/>
 <link rel="stylesheet" href="{% static 'reg.css' %}"/>
   
-  <style>
-.button { 
-  	display: inline-block;
+<style>
+
+a 
+{
+font-family: 'pixels';
+font-size: 36px;
+color: black;
+text-align: center;
+}
+
+a:link, a:visited 
+{
+  display: inline-block;
   	padding: 15px 25px;
   	font-size: 24px;
   	cursor: pointer;
@@ -29,13 +39,18 @@
  	 box-shadow: 0 6px #ffca18;
 }
 
-.button:hover {background-color: #ffdc65}
+a:hover 
+{
+  background-color: #ffdc65
+}
 
-.button:active {
+a:active 
+{
   background-color: #ffdc65;
   box-shadow: 0 5px #ffd033;
   transform: translateY(4px);
 }
+
 </style>
 
   </head>
@@ -63,10 +78,8 @@
 
       
     </div>
-    
-<button class="button">
-  <a href="/">Generate!</a>
-    </button>
+	  
+<a href="/">Generate!</a>
     
     </section>
 
