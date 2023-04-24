@@ -1,8 +1,9 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
 <head> 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="{% static 'main.css' %}">
 </head>
 
 <body>
@@ -11,7 +12,7 @@
 
 {{ name }}
 
-<button type="button" ><a href="https://shark-app-rp7ck.ondigitalocean.app/">Generate!</a></button>
+<button type="button" ><a href="/">Generate!</a></button>
 
 </body>
 </html>

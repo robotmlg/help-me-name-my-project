@@ -7,6 +7,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY hmnmp /app/hmnmp
 COPY name_project /app/name_project
+COPY static /app/static
 COPY manage.py /app/
 COPY run.sh /app/
 

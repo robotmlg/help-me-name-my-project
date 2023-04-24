@@ -1,16 +1,16 @@
 @font-face {
   font-family: Rubik Pixels;
-  src: url(RubikPixels-Regular.ttf);
+  src: url(/static/fonts/RubikPixels-Regular.ttf);
 }
 
 @font-face {
   Font-family: Press Start 2P;
-  src: url(PressStart2P-Regular.ttf);
+  src: url(/static/fonts/PressStart2P-Regular.ttf);
 }
 
 @font-face {
   Font-family: Cantarell Regular;
-  src: url(Cantarell-Regular.ttf);
+  src: url(/static/fonts/Cantarell-Regular.ttf);
 }
 
 
