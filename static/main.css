@@ -1,30 +1,30 @@
 @font-face {
   font-family: Rubik Pixels;
-  src: url(RubikPixels-Regular.ttf);
+  src: url(https://github.com/robotmlg/help-me-name-my-project/blob/main/static/RubikPixels-Regular.ttf);
+
 }
 
 @font-face {
   Font-family: Press Start 2P;
-  src: url(PressStart2P-Regular.ttf);
+  src: url(https://github.com/robotmlg/help-me-name-my-project/blob/main/static/PressStart2P-Regular.ttf);
 }
 
 @font-face {
   Font-family: Cantarell Regular;
-  src: url(Cantarell-Regular.ttf);
+  src: url(https://github.com/robotmlg/help-me-name-my-project/blob/main/static/Cantarell-Regular.ttf);
 }
 
-
-H1 {
+h1 {
 	font-family: Press Start 2P; 
 	font-size: 40px;
 	color: #ff0061;
 	text-align: center;
-	
 }
 
-Body {
+p {
 	font-family: Cantarell Regular; 
 	font-size: 38px; 
+}
 
 .button { 
 	font-family: Rubik Pixels;
