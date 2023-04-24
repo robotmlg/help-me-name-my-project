@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Rubik Pixels;
+  src: url(RubikPixels-Regular.ttf);
+}
+
+@font-face {
+  Font-family: Press Start 2P;
+  src: url(PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  Font-family: Cantarell Regular;
+  src: url(Cantarell-Regular.ttf);
+}
+
+
+H1 {
+	font-family: Press Start 2P; 
+	font-size: 40px;
+	color: #ff0061;
+	text-align: center;
+	
+}
+
+Body {
+	font-family: Cantarell Regular; 
+	font-size: 38px; 
+
+.button { 
+	font-family: Rubik Pixels;
+	font-size: 36px;
+	padding: 50px 75px;
+	background-color:; 
+	color: #0087;
+	position: relative; 
+	display: inline;
+	margin: auto; 
+	left: 50%; 
+	right: 50%;
+	transition-duration: 0.4s;
+} 
+
+.button:hover {
+  background-color: #0087;
+  color: #ffc500;
+}
