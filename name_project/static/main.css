@@ -35,15 +35,18 @@ h1 {
 
 	font-family: ‘reg’;
 	font-size: 70px;
+	text-align: center;
 
 }
 
 .button { 
 	
-	h2 {
+font-family: ‘pixels’;
 font-size: 36px;
 color: black;
 text-align: center;
+} 
+
 } 
 
 	padding: 15px 32px;
