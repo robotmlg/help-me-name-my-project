@@ -4,15 +4,16 @@
 
   padding: 60px;
   text-align: center;
-  border-bottom: 1px, #0000, solid; 
+  background-color: #fcfcfc;
+  border-bottom: 1px, solid, black;
 
 
 .title {
 	
 h1 {
-	font-family: ‘start; 
+	font-family: ‘start’; 
 	font-size: 40px;
-	color: #ff0061;
+	color: #e30056;
 	text-align: center;
 }
 
@@ -20,13 +21,20 @@ h1 {
 	
 }
 
+/* copy area */ 
+
+.maincopy {
+ 
+  padding: 60px;
+  text-align: center;
+ 
+}
 
 
 .reload {
 
-	font-family: ‘reg’; 
-	font-size: 38px;
-	text-align: center;
+	font-family: ‘reg’;
+	font-size: 70px;
 
 }
 
@@ -34,21 +42,25 @@ h1 {
 	
 	h2 {
 font-size: 36px;
-color: #0087;
+color: black;
+text-align: center;
 } 
 
-	padding: 50px 75px 10px 10px;
-	margin: 10px 10px 10px 10px;
-	background-color: #ffc500; 
+	padding: 15px 32px;
+	background-color: #e3af00; 
+	border: 1px, solid, black;
+	border-radius: 30px;
 	position: relative; 
-	display: inline;
-	margin: auto; 
+	display: inline-block;
+	margin: 4px 2px;
 	left: 50%; 
 	right: 50%;
 	transition-duration: 0.4s;
+	filter: drop-shadow(4px 8px 5px #919191);
 } 
 
 .button:hover {
-  background-color: #0087;
-  color: #ffc500;
+  background-color: black;
+  color: #e3af00;
+  filter: drop-shadow(2px 8px 3px #6e6e6e);
 }
