@@ -1,0 +1,10 @@
+/* button font file */
+
+@font-face {
+  font-family: ‘pixels’;
+  src: url(/static/fonts/RubikPixels-Regular.ttf);
+}
+
+h2 {
+	font-family: ‘pixels’;
+}
