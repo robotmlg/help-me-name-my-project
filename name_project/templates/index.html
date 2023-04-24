@@ -4,16 +4,23 @@
 
 <head>
   
-<link rel="stylesheet" href="{% static 'main.css' %}">
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='pixels.css') }}"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='start.css') }}"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='reg.css') }}"/>
 
   </head>
 
 <body>
+  
+  <div class="header">
 
   <div class="Title">
   
     <h1>Lazy Developer Project Name Generator</h1>
 
+  </div>
+    
   </div>
   
   <section>
