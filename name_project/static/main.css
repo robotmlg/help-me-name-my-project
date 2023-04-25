@@ -22,7 +22,8 @@ h1
 
 .maincopy {
  
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 
 .reload 
