@@ -55,6 +55,7 @@ body
 {
 	height: calc(100vh - 8em);
 	font-family: reg;
+	font-size: 64px;
 }
 .line-1
 {
@@ -84,6 +85,28 @@ body
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+footer
+{
+	font-size: 12px;
+	font-family: pstart;
+	text-align: center;
+}
+
+a.foot:link, a.foot:visited 
+{
+	font-family: pstart;
+	color: black;
+    	text-decoration: none;
+  	font-size: 12px;
+  	cursor: pointer;
+	overflow: hidden;
+}
+
+a.foot:hover, a.foot:active
+{
+  color: #4770fd;
 }
 
 </style>
@@ -119,10 +142,10 @@ body
 </body>
 	<footer>
 		<p>
-			Built by <a href="https://tacobelllabs.net/@robotmlg">Matt</a> and Rachel Goldman
+			Built by <a.foot href="https://tacobelllabs.net/@robotmlg">Matt</a> and Rae Goldman
 		</p>
 		<p>
-			<a href="https://github.com/robotmlg/help-me-name-my-project">Contribute on GitHub</a>
+			<a.foot href="https://github.com/robotmlg/help-me-name-my-project">Contribute on GitHub</a>
 		</p>
 	</footer>
 </html>
