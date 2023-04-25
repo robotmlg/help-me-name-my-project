@@ -1,0 +1,6 @@
+/* button font file */
+
+@font-face {
+  font-family: blox;
+  src: url(/static/fonts/blox2.ttf);
+}
