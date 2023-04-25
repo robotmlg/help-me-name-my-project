@@ -19,18 +19,10 @@ h1
 	text-align: center;
 }
 
-body 
-{
-	font-family: reg;
-    	font-size: 64px;
-	text-align: center;
-	overflow: hidden;
-}
-
 a:link, a:visited 
 {
 	font-family: blox;
-	color: #4770FD;
+	color: #4770fd;
     	text-decoration: none;
   	display: inline-block;
   	padding: 15px 25px;
@@ -59,21 +51,36 @@ a:active
   transform: translateY(4px);
 }
 
-.animate{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+body
+{
+	height: calc(100vh - 8em);
+	font-family: reg;
 }
-.line-1{ 
+.line-1
+{
+    position: relative;
+    top: 50%;  
     width: 24em;
     margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;   
+    overflow: hidden;
+    transform: translateY(-50%);    
 }
+
+.animate
+{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) normal;
+}
+	
 @keyframes typewriter{
   from{width: 0;}
   to{width: 24em;}
 }
+	
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
