@@ -21,8 +21,9 @@ h1
 
 body 
 {
+	height: calc(100vh - 8em);
 	font-family: reg;
-    	font-size: 64px;
+    	font-size: 48px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -33,7 +34,7 @@ a:link, a:visited
     	text-decoration: none;
   	display: inline-block;
   	padding: 15px 25px;
-  	font-size: 24px;
+  	font-size: 36px;
   	cursor: pointer;
   	text-align: center;
   	outline: none;
@@ -58,6 +59,27 @@ a:active
   transform: translateY(4px);
 }
 
+.animate{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+.line-1{ 
+    width: 24em;
+    margin: 0 auto;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;   
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 </style>
 
   </head>
@@ -76,7 +98,7 @@ a:active
   
   <section>
     
-    <div class="Reload">
+    <div class="Reload line-1 animation">
 
 {{ name }}
 
@@ -84,7 +106,7 @@ a:active
 
     </div>
 	  
-<a href="/">generate!</a>
+<a href="/">generate</a>
     
     </section>
 
