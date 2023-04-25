@@ -7,7 +7,6 @@
   background-color: #fcfcfc;
   border-bottom: 1px, solid, black;
 
-
 .title {
 	
 h1 
@@ -26,14 +25,11 @@ h1
   padding: 60px;
   text-align: center;
 
+.reload 
+{
 
-.reload {
-
-	font-family: ‘reg’;
-	font-size: 100px;
-	position: relative;
-	left: 50%;
-	right: 50%;
+	  text-align: center;
+	
 }
 	
 }
