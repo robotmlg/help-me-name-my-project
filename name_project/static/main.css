@@ -4,8 +4,6 @@
 
   padding: 60px;
   text-align: center;
-  background-color: #fcfcfc;
-  border-bottom: 1px, solid, black;
 
 .title {
 	
@@ -23,7 +21,7 @@ h1
 .maincopy {
  
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 160px;
   text-align: center;
 
 .reload 
