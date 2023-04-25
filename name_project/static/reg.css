@@ -1,5 +1,7 @@
 /* body font file */
-@font-face {
+
+@font-face 
+{
  	font-family: reg;
-  src: url(/static/fonts/cantarell-regular.ttf);
+  	src: url(/static/fonts/kingthings-trypewriter-2.ttf);
 }
