@@ -20,15 +20,8 @@ h1
 
 .maincopy {
  
-  padding-top: 60px;
+  padding: 60px 0px 60px 0px;
   text-align: center;
-
-.reload 
-{
- 	padding-bottom: 60px;
-	text-align: center;
-	
-}
 	
 }
 
