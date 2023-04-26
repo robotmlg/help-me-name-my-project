@@ -57,6 +57,7 @@ body
 	font-family: reg;
 	font-size: 52px;
 	justify-content: center;
+	text-align: center;
 }
 * {color:black; text-decoration: none;}
 
@@ -117,6 +118,7 @@ a.git:hover, a.git:active
     <a href="" class="typewrite" data-period="2000" data-type='["{{ name }}"]'>
     <span class="wrap"></span>
   </a>
+	 <br>
   
 <script>
 var TxtType = function(el, toRotate, period) {
@@ -141,6 +143,7 @@ var TxtType = function(el, toRotate, period) {
 
         var that = this;
         var delta = 200 - Math.random() * 100;
+
 
         if (!this.stop && this.txt === fullTxt) {
         	delta = this.period;
