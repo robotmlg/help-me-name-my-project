@@ -21,4 +21,6 @@ import name_project.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", name_project.views.index, name="index"),
+    path("faq", name_project.views.faq, name="faq"),
+    path("info", name_project.views.info, name="info"),
 ]
