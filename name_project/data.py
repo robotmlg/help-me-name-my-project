@@ -97,7 +97,7 @@ NOUNS = [
 "cactus",
 "palms",
 "wheat",
-"fir ",
+"fir",
 "fern",
 "plant",
 "grassland",
