@@ -1,0 +1,237 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<link rel="stylesheet" href="{% static 'main.css' %}"/>
+<link rel="stylesheet" href="{% static 'blox.css' %}"/>
+<link rel="stylesheet" href="{% static 'start.css' %}"/>
+<link rel="stylesheet" href="{% static 'reg.css' %}"/>
+  
+<style>
+
+@media only screen and (max-width:99vw) 
+{
+	.html-block 
+	{
+		h1 
+		{
+			margin-left: 5vw;
+			margin-right: 5vw;
+ 		}
+		body
+		{
+			margin-left: 5vw;
+			margin-right: 5vw;
+		}
+		footer
+		{
+			margin-left: 5vw;
+			margin-right: 5vw;
+		}
+	}
+}
+	
+h1 
+{
+	font-family: pstart;
+	color: #e30056;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2 
+{
+	font-family: pstart;
+	color: #127EF7;
+	font-size: 18px;
+	text-align: center;
+    margin-bottom:-25px;
+}
+
+body
+{
+	font-family: reg;
+	font-size: 32px;
+	justify-content: center;
+	text-align: center;
+}
+
+.div-2
+{
+	font-family: reg;
+	font-size: 24px;
+	justify-content: center;
+	text-align: center;
+}
+
+footer
+{
+	font-size: 16px;
+	font-family: pstart;
+	text-align: center;
+}
+
+a.foot:link, a.foot:visited 
+{
+	font-family: pstart;
+	color: black;
+    	text-decoration: none;
+  	font-size: 16px;
+  	cursor: pointer;
+	overflow: hidden;
+}
+
+a.foot:hover, a.foot:active
+{
+  color: #127EF7;
+}
+
+a.faq:link, a.faq:visited 
+{
+	font-family: blox;
+	color: #ffd64b;
+    text-decoration: none;
+  	display: inline-block;
+  	padding: 10px 20px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline: none;
+ 	background-color: #127EF7;
+	position: relative; 
+	margin-top: 30px;
+	overflow: hidden;
+ 	border-radius: 15px;
+ 	box-shadow: 0 6px #106ED8;
+}
+
+a.faq:hover 
+{
+  background-color: #4D9EF9;
+}
+
+a.faq:active
+{
+  background-color: #4D9EF9;
+  box-shadow: 0 5px #0E5FB9;
+  transform: translateY(4px);
+}
+
+a.info:link, a.info:visited 
+{
+	font-family: blox;
+	color: white;
+    	text-decoration: none;
+  	display: inline-block;
+  	padding: 10px 20px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline: none;
+ 	background-color: #e30056;
+	position: relative; 
+	margin-top: 30px;
+	overflow: hidden;
+ 	border-radius: 15px;
+ 	box-shadow: 0 6px #C7004B;
+}
+
+a.info:hover 
+{
+  background-color: #EA4080;
+}
+
+a.info:active
+{
+  background-color: #EA4080;
+  box-shadow: 0 5px #E6206B;
+  transform: translateY(4px);
+}
+
+a.home:link, a.home:visited 
+{
+	font-family: blox;
+	color: #127EF7;
+    	text-decoration: none;
+  	display: inline-block;
+  	padding: 10px 20px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline: none;
+ 	background-color: #ffd64b;
+	position: relative; 
+	margin-top: 30px;
+	overflow: hidden;
+ 	border-radius: 15px;
+ 	box-shadow: 0 6px #ffca18;
+}
+a.home:hover 
+{
+  background-color: #ffdc65;
+}
+a.home:active
+{
+  background-color: #ffdc65;
+  box-shadow: 0 5px #ffd033;
+  transform: translateY(4px);
+}
+
+a.mail:link, a.mail:visited 
+{
+	font-family: reg;
+	color: #00E38D;
+    text-decoration: none;
+  	font-size: 24px;
+  	cursor: pointer;
+	overflow: hidden;
+}
+
+a.mail:hover, a.mail:active
+{
+  color: #E30056;
+}
+
+</style>
+
+  </head>
+
+<body>
+  
+  <div class="header">
+
+  <div class="Title">
+  
+<h1>Lazy Developer Project Name Generator</h1>
+
+  </div>
+    
+  </div>
+  
+  <div class="div-2">
+  <h2>Can I suggest a word?</h2>
+  <p>Absolutely! <a class="mail" href="mailto:hello@helpmenamemyproject.com">Email us!</a> </p>
+  <h2>Are any of the generated project names existing projects?</h2>
+  <p>Not intentionally - the project names are generated at random from a list of adjectives and a list of nouns. However, there are adjectives and nouns inspired by real projects, so you might just land on a correct pairing.</p>
+  <h2>Can I actually use a generated project name for my next project?</h2>
+  <p>We dare you to.</p>
+  <h2>Are you a project developer?</h2>
+  <p>Nope!</p>
+  <h2>Is this site affiliated with any business, developer, brand, consultant, engineering firm, car enthusiast auction site, supermarket chain, 7 time grammy winning musician, NHL team, etc.?</h2>
+  <p>No - views expressed within this page are independent of any external entity. </p>
+   </div>
+
+</body>
+	<footer>
+		<p>
+			<a class="faq" href="https://helpmenamemyproject.com/faq">FAQ</a> 
+			<a class="home" href="https://helpmenamemyproject.com">back to the generator</a>
+		</p>
+					</footer>
+</html>
+
+
+
