@@ -3,6 +3,7 @@ import random
 ADJECTIVES=[
 "big",
 "little",
+"hidden",
 "golden",
 "dusty",
 "falling",
