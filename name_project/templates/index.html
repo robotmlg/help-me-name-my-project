@@ -15,10 +15,7 @@ body
 {% endblock %}
 
 {% block content %}
-    <a href="" class="typewrite" data-period="2000" data-type='["{{ name }}"]'>
-    <span class="wrap"></span>
-  </a>
-	 <br>
+    <span class="typewrite" data-period="2000" data-type='["{{ name }}"]'><span class="wrap"></span></span>
   
 <script>
 var TxtType = function(el, toRotate, period) {
@@ -75,11 +72,4 @@ var TxtType = function(el, toRotate, period) {
     </div>
 	  
 	<a class="gen" href="/">generate</a>
-{% endblock %}
-
-{% block nav %}
-		<p>
-			<a class="faq" href="/faq">FAQ</a> 
-			<a class="info" href="/info">info</a>
-		</p>
 {% endblock %}

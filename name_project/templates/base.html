@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 
+<link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
 <link rel="stylesheet" href="{% static 'blox.css' %}"/>
 <link rel="stylesheet" href="{% static 'start.css' %}"/>
 <link rel="stylesheet" href="{% static 'reg.css' %}"/>
@@ -19,29 +20,24 @@
 
 <body>
   
-  <div class="header">
+  <div class="container header Title text-center">
 
-  <div class="Title">
-  
 <h1>Lazy Developer Project Name Generator</h1>
-
-  </div>
     
   </div>
   
-  <section>
+  <div class="container text-center">
 {% block content %}
 {% endblock %}
-    </section>
+    </div>
 
-</body>
+<div class="container">
 	<footer>
-{% block nav %}
 		<p>
-			<a class="faq" href="/faq">FAQ</a> 
-			<a class="info" href="/info">info</a>
+			{% if "/faq" not in request.path %}<a class="faq" href="/faq">FAQ</a>{% endif %}
+			{% if "/info" not in request.path %}<a class="info" href="/info">info</a>{% endif %}
+			{% if request.path != "/" %}<a class="home" href="/">back to the generator</a> {% endif %}
 		</p>
-{% endblock %}
 		<br>
 		<p>
 			Built by <a class="foot" href="https://tacobelllabs.net/@robotmlg">Matt</a> &amp; Rae Goldman
@@ -50,4 +46,6 @@
 			<a class="git" href="https://github.com/robotmlg/help-me-name-my-project">Contribute on GitHub</a>
 		</p>
 	</footer>
+	</div>
+	</body>
 </html>
