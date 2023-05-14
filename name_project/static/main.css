@@ -1,51 +1,11 @@
 /* title area */
 
-@media only screen and (max-width:99vw)
-{
-	.html-block
-	{
-		h1
-		{
-			margin-left: 5vw;
-			margin-right: 5vw;
- 		}
-		body
-		{
-			margin-left: 5vw;
-			margin-right: 5vw;
-		}
-		footer
-		{
-			margin-left: 5vw;
-			margin-right: 5vw;
-		}
-	}
-}
-
-.header {
-
-  padding: 30px;
-  text-align: center;
-
-    .title {
-        
-        h1 
-        {
-            text-align: center;
-        }
-
-    }
-	
-}
 
 h1
 {
 	font-family: pstart;
 	color: #e30056;
 	font-size: 36px;
-	margin-bottom: 10px;
-	margin-left:3vw;
-	margin-right:3vw;
 }
 
 h2
@@ -53,11 +13,6 @@ h2
 	font-family: pstart;
 	color: #127EF7;
 	font-size: 18px;
-	text-align: center;
-    	margin-bottom:-25px;
-	justify-content: center;
-	margin-right: 3vw;
-	margin-left: 3vw;
 }
 
 body
@@ -66,8 +21,6 @@ body
 	font-size: 32px;
 	justify-content: center;
 	text-align: center;
-	margin-right: 3vw;
-	margin-left: 3vw;
 }
 
 .div-2
@@ -76,8 +29,6 @@ body
 	font-size: 24px;
 	justify-content: center;
 	text-align: center;
-	margin-right: 10vw;
-	margin-left: 10vw;
 }
 
 a.gen:link, a.gen:visited
@@ -257,14 +208,6 @@ a.mail:link, a.mail:visited
 a.mail:hover, a.mail:active
 {
   color: #E30056;
-}
-
-/* copy area */ 
-
-.maincopy {
- 
-  text-align: center;
-margin-bottom: 50px;
 }
 
 	
