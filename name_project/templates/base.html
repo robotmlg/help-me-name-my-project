@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<link rel="stylesheet" href="{% static 'blox.css' %}"/>
+<link rel="stylesheet" href="{% static 'start.css' %}"/>
+<link rel="stylesheet" href="{% static 'reg.css' %}"/>
+<link rel="stylesheet" href="{% static 'main.css' %}"/>
+
+<style>
+{% block styles %}
+{% endblock %}
+</style>
+  
+
+  </head>
+
+<body>
+  
+  <div class="header">
+
+  <div class="Title">
+  
+<h1>Lazy Developer Project Name Generator</h1>
+
+  </div>
+    
+  </div>
+  
+  <section>
+{% block content %}
+{% endblock %}
+    </section>
+
+</body>
+	<footer>
+{% block nav %}
+		<p>
+			<a class="faq" href="/faq">FAQ</a> 
+			<a class="info" href="/info">info</a>
+		</p>
+{% endblock %}
+		<br>
+		<p>
+			Built by <a class="foot" href="https://tacobelllabs.net/@robotmlg">Matt</a> &amp; Rae Goldman
+		</p>
+		<p>
+			<a class="git" href="https://github.com/robotmlg/help-me-name-my-project">Contribute on GitHub</a>
+		</p>
+	</footer>
+</html>

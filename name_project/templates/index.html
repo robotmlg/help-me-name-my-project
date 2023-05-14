@@ -1,15 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+{% extends "base.html" %}
 
-<link rel="stylesheet" href="{% static 'blox.css' %}"/>
-<link rel="stylesheet" href="{% static 'start.css' %}"/>
-<link rel="stylesheet" href="{% static 'reg.css' %}"/>
-<link rel="stylesheet" href="{% static 'main.css' %}"/>
-
-<style>
+{% block styles %}
 body
 {
 	height: calc(100vh - 8em);
@@ -21,24 +12,9 @@ body
 	margin-right:3vw;
 }
 * {color:black; text-decoration: none;}
-</style>
-  
+{% endblock %}
 
-  </head>
-
-<body>
-  
-  <div class="header">
-
-  <div class="Title">
-  
-<h1>Lazy Developer Project Name Generator</h1>
-
-  </div>
-    
-  </div>
-  
-  <section>
+{% block content %}
     <a href="" class="typewrite" data-period="2000" data-type='["{{ name }}"]'>
     <span class="wrap"></span>
   </a>
@@ -99,21 +75,11 @@ var TxtType = function(el, toRotate, period) {
     </div>
 	  
 	<a class="gen" href="/">generate</a>
-    
-    </section>
+{% endblock %}
 
-</body>
-	<footer>
+{% block nav %}
 		<p>
 			<a class="faq" href="/faq">FAQ</a> 
 			<a class="info" href="/info">info</a>
 		</p>
-		<br>
-		<p>
-			Built by <a class="foot" href="https://tacobelllabs.net/@robotmlg">Matt</a> &amp; Rae Goldman
-		</p>
-		<p>
-			<a class="git" href="https://github.com/robotmlg/help-me-name-my-project">Contribute on GitHub</a>
-		</p>
-	</footer>
-</html>
+{% endblock %}

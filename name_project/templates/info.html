@@ -1,39 +1,16 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+{% extends "base.html" %}
 
-<link rel="stylesheet" href="{% static 'blox.css' %}"/>
-<link rel="stylesheet" href="{% static 'start.css' %}"/>
-<link rel="stylesheet" href="{% static 'reg.css' %}"/>
-<link rel="stylesheet" href="{% static 'main.css' %}"/>
-
-
-
-  </head>
-
-<body>
-
-  <div class="header">
-
-  <div class="Title">
-
-<h1>Lazy Developer Project Name Generator</h1>
-
-  </div>
-
-  </div>
-
+{% block content %}
   <div class="div-2">
   <h2>In a transitional state right now, check back soon for updates!</h2>
    </div>
+{% endblock %}
 
-</body>
-	<footer>
+{% block nav %}
 		<p>
 			<a class="faq" href="/faq">FAQ</a> 
 			<a class="home" href="/">back to the generator</a>
 		</p>
-					</footer>
-</html>
+{% endblock %}
+
+

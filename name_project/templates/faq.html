@@ -1,29 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+{% extends "base.html" %}
 
-<link rel="stylesheet" href="{% static 'blox.css' %}"/>
-<link rel="stylesheet" href="{% static 'start.css' %}"/>
-<link rel="stylesheet" href="{% static 'reg.css' %}"/>
-<link rel="stylesheet" href="{% static 'main.css' %}"/>
-
-  
-  </head>
-
-<body>
-  
-  <div class="header">
-
-  <div class="Title">
-  
-<h1>Lazy Developer Project Name Generator</h1>
-
-  </div>
-    
-  </div>
-  
+{% block content %}
   <div class="div-2">
   <h2>Can I suggest a word?</h2>
   <p>Absolutely! <a class="mail" href="mailto:hello@helpmenamemyproject.com">Email us!</a> </p>
@@ -36,15 +13,13 @@
   <h2>Is this site affiliated with any business, developer, brand, consultant, engineering firm, car enthusiast auction site, supermarket chain, 7 time grammy award winning musician, NHL team, etc.?</h2>
   <p>No - views expressed within this page are independent of any external entity. </p>
    </div>
+{% endblock %}
 
-</body>
-	<footer>
+{% block nav %}
 		<p>
 			<a class="info" href="/info">info</a> 
 			<a class="home" href="/">back to the generator</a>
 		</p>
-					</footer>
-</html>
-
+{% endblock %}
 
 
