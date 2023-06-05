@@ -102,6 +102,16 @@ NOUNS = [
 "fern",
 "plant",
 "grassland",
+"cricket",
+"wolf",
+"eagle",
+"antelope",
+"jackalope",
+"moose",
+"buffalo",
+"bison",
+"coyote",
+"cedar",
 ]
 
 def get_name():
