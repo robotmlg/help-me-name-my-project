@@ -48,6 +48,8 @@ ADJECTIVES=[
 "ancient",
 "clear",
 "cautious",
+"overcast",
+"highland",
 ]
 
 NOUNS = [
@@ -112,6 +114,7 @@ NOUNS = [
 "bison",
 "coyote",
 "cedar",
+"deer",
 ]
 
 def get_name():
